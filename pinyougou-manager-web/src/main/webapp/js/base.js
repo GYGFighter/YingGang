@@ -1,0 +1,1 @@
+var app=angular.module('pinyougou',[]); //不带有分页组件的

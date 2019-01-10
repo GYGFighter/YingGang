@@ -1,0 +1,1 @@
+var app = angular.module("pinyougou", ['pagination']); //这是带有分页组件的

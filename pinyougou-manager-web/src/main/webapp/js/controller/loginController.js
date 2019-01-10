@@ -1,0 +1,10 @@
+app.controller("loginController", function ($scope,$controller,loginService) {
+    //获取当前登录的用户名
+    $scope.showLoginName=function () {
+        loginService.loginName().success(
+            function (response) {
+                $scope.loginName = response.loginName;
+            }
+        )
+    }
+});
